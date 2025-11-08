@@ -1,0 +1,4 @@
+Because of the extremely large file sizes of modern AI models, I’m unable to upload them directly to Google Colab or GitHub. 
+GitHub restricts individual file sizes to 100 MB, and Google Colab provides only temporary storage with limited upload capacity. These constraints make it impractical to store or load full model checkpoints on either platform.
+To solve this, I’ve hosted the model externally and integrated it through a direct link. The notebook can be accessed here:
+Colab Notebook Link: https://colab.research.google.com/drive/1FuP3x3tSsqFi1q434gJMAKvrqTODX-8Z?usp=sharing
