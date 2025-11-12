@@ -1,0 +1,66 @@
+/* Navigation specific styles */
+.MuiAppBar-root {
+  backdrop-filter: blur(20px);
+  background-color: rgba(255, 255, 255, 0.95) !important;
+}
+
+/* Smooth transitions for navigation items */
+.nav-item {
+  transition: all 0.3s ease;
+}
+
+.nav-item:hover {
+  transform: translateY(-1px);
+}
+
+/* Gradient text for brand */
+.gradient-brand {
+  background: linear-gradient(135deg, #2E86AB 0%, #A23B72 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Mobile drawer styles */
+.mobile-drawer .MuiDrawer-paper {
+  border-radius: 0 20px 20px 0;
+}
+
+/* Active navigation item indicator */
+.active-nav-item {
+  position: relative;
+}
+
+.active-nav-item::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  height: 3px;
+  background: linear-gradient(135deg, #2E86AB 0%, #A23B72 100%);
+  border-radius: 2px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .MuiToolbar-root {
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+  }
+  
+  .brand-text {
+    font-size: 1.1rem !important;
+  }
+}
+
+/* Navigation button hover effects */
+.nav-button {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.nav-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(46, 134, 171, 0.3);
+}

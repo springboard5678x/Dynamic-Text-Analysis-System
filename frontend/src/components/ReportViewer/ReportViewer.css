@@ -1,0 +1,80 @@
+ .report-viewer-component {
+  width: 100%;
+}
+
+/* PDF viewer dialog */
+.pdf-viewer-dialog .MuiDialog-paper {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+/* Report section animations */
+.report-section {
+  transition: all 0.3s ease;
+}
+
+.report-section:hover {
+  transform: translateX(4px);
+}
+
+/* Action buttons container */
+.action-buttons {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+/* Responsive PDF viewer */
+@media (max-width: 768px) {
+  .pdf-viewer-dialog .MuiDialog-paper {
+    margin: 0;
+    border-radius: 0;
+    height: 100vh;
+    max-height: 100vh;
+  }
+  
+  .action-buttons {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .action-buttons button {
+    width: 100%;
+  }
+}
+
+/* Print styles for report */
+@media print {
+  .report-viewer-component .MuiButton-root {
+    display: none !important;
+  }
+  
+  .report-viewer-component {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  
+  .report-viewer-component .MuiCard-root {
+    box-shadow: none !important;
+    border: 1px solid #ddd !important;
+  }
+}
+
+/* Loading state for PDF */
+.pdf-loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  border-radius: 8px;
+}
+
+/* Error state */
+.report-error {
+  border-left: 4px solid #f44336;
+  background-color: #ffebee;
+  padding: 1rem;
+  border-radius: 0 8px 8px 0;
+}

@@ -1,0 +1,67 @@
+ .analysis-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+/* Stepper customization */
+.MuiStepLabel-label {
+  font-weight: 600 !important;
+}
+
+.MuiStepConnector-line {
+  border-color: #e0e0e0 !important;
+}
+
+.MuiStepConnector-active,
+.MuiStepConnector-completed {
+  .MuiStepConnector-line {
+    border-color: #2E86AB !important;
+  }
+}
+
+/* Tab customization */
+.MuiTab-root {
+  font-weight: 500 !important;
+  text-transform: none !important;
+  min-height: 60px !important;
+}
+
+.MuiTabs-indicator {
+  height: 3px !important;
+  border-radius: 2px 2px 0 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .analysis-page {
+    padding: 1rem 0;
+  }
+  
+  .MuiStepper-root {
+    padding: 1rem !important;
+  }
+  
+  .MuiStepLabel-label {
+    font-size: 0.8rem !important;
+  }
+}
+
+/* Loading animation */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.05);
+    opacity: 0.7;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.pulse {
+  animation: pulse 2s ease-in-out infinite;
+}

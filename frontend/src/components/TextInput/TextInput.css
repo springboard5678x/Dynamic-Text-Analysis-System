@@ -1,0 +1,44 @@
+ .text-input-component {
+  width: 100%;
+}
+
+/* Text field styling */
+.MuiOutlinedInput-root {
+  transition: all 0.3s ease;
+}
+
+.MuiOutlinedInput-root:focus-within {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Character count animation */
+@keyframes countPulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+
+.char-count-warning {
+  animation: countPulse 0.5s ease-in-out;
+}
+
+/* Sample text buttons */
+.sample-text-button {
+  transition: all 0.3s ease;
+}
+
+.sample-text-button:hover {
+  transform: translateY(-1px);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .text-input-component {
+    padding: 0;
+  }
+  
+  .MuiTextField-root {
+    margin-bottom: 1rem !important;
+  }
+}

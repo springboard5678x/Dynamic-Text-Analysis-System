@@ -1,0 +1,75 @@
+ 
+.visualization-component {
+  width: 100%;
+}
+
+/* Chart container animations */
+.chart-container {
+  transition: all 0.3s ease;
+}
+
+.chart-container:hover {
+  transform: translateY(-2px);
+}
+
+/* Custom tooltip styles */
+.recharts-tooltip-wrapper {
+  z-index: 1000;
+}
+
+.recharts-default-tooltip {
+  border-radius: 8px !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1) !important;
+  border: none !important;
+}
+
+/* Bar chart animations */
+.recharts-bar-rectangle {
+  transition: all 0.3s ease;
+}
+
+.recharts-bar-rectangle:hover {
+  opacity: 0.8;
+  transform: scale(1.05);
+}
+
+/* Pie chart segment animations */
+.recharts-pie-sector {
+  transition: all 0.3s ease;
+}
+
+.recharts-pie-sector:hover {
+  opacity: 0.8;
+  transform: scale(1.05);
+}
+
+/* Responsive chart adjustments */
+@media (max-width: 768px) {
+  .visualization-component {
+    padding: 0.5rem;
+  }
+  
+  .recharts-legend-wrapper {
+    position: relative !important;
+    margin-top: 1rem;
+  }
+  
+  .recharts-default-legend {
+    text-align: center !important;
+  }
+}
+
+/* Loading state for charts */
+.chart-loading {
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+/* Word cloud container */
+.word-cloud-container {
+  transition: all 0.3s ease;
+}
+
+.word-cloud-container:hover {
+  transform: scale(1.02);
+}
