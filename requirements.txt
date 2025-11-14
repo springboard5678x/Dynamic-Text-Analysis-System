@@ -1,0 +1,15 @@
+streamlit
+pandas
+numpy
+matplotlib
+scikit-learn
+joblib
+reportlab
+textblob
+kagglehub
+nltk
+wordcloud
+tensorflow
+torch
+transformers
+tf-keras
