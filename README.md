@@ -21,8 +21,9 @@ The goal is to provide meaningful insights from textual data.
   - Confusion Matrix Visualization  
 
 ---
-
+## Interface
 <img width="1275" height="800" alt="Screenshot 2025-11-23 at 7 30 10 PM" src="https://github.com/user-attachments/assets/3fb171ee-543e-4fcb-b0c6-3d82fc146942" />
+## Output
 <img width="1280" height="800" alt="Screenshot 2025-11-23 at 7 29 22 PM" src="https://github.com/user-attachments/assets/17c9698b-e3d0-4a5e-8ca5-44dfe0b61490" />
 <img width="1280" height="800" alt="Screenshot 2025-11-23 at 7 29 22 PM" src="https://github.com/user-attachments/assets/60b91105-f550-4b0b-8d6b-20f63fe6fcb8"/>
 
