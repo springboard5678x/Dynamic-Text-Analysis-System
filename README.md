@@ -34,15 +34,14 @@ The goal is to provide meaningful insights from textual data.
 https://github.com/user-attachments/assets/0d656bc2-760a-4ec6-a569-83298ced3f43
 
 ## To Run
-npm install
-npm run dev
-http://localhost:5173/
+## npm install
+## npm run dev
+## http://localhost:5173/
 
 
 
 ## 📊 Results  
 - Achieved **70% accuracy** on test data  
-- **LSTM** outperformed CNN and MLP models  
 - Confusion matrix confirms strong generalization across sentiments  
 
 ---
