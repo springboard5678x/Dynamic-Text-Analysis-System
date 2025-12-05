@@ -12,7 +12,6 @@ The goal is to provide meaningful insights from textual data.
 - Feature extraction using **Word Embeddings** (Word2Vec / GloVe)  
 - Sequence padding for uniform input length  
 - Sentiment label encoding for model compatibility  
-- Deep learning models: **LSTM** and **GRU** for sequential text data  
 - Model evaluation using:  
   - Accuracy  
   - Precision  
@@ -33,6 +32,12 @@ The goal is to provide meaningful insights from textual data.
 
 
 https://github.com/user-attachments/assets/0d656bc2-760a-4ec6-a569-83298ced3f43
+
+## To Run
+npm install
+npm run dev
+http://localhost:5173/
+
 
 
 ## 📊 Results  
