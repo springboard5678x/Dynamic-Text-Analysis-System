@@ -1,7 +1,7 @@
 # 📌 Sentiment Analysis Project  
 
 ## 📘 Project Overview  
-This project performs sentiment analysis on text data using deep learning models (LSTM/GRU).  
+This project performs sentiment analysis on text data using  NLP-machine learning based model.  
 The model classifies text into **positive**, **negative**, or **neutral** sentiments.  
 The goal is to provide meaningful insights from textual data.
 
